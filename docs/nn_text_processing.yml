@@ -1,0 +1,16 @@
+tags:
+  - name: NN text processing
+get:
+  description: Teks NN yang akan diproses
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+  "200":
+    description: Success
+  "404":
+    description: Not Found
+  "500":
+    description: Internal Server Error
